@@ -44,14 +44,14 @@ export default function Dashboard() {
                             <div style={{height:"6rem",backgroundColor:"#2D43A8"}}>
                                 <div style={{justifyContent:"center",display:"flex",alignItems:"baseline"}}>
                                     <div style={{display:"flex", alignItems:"center",marginTop:"1rem"}}>
-                                        <img src="../../../../public/image/sunrise.png"/>
+                                        <img src="/public/image/sunrise.png"/>
                                         <h5 style={{marginLeft:5,color:'white'}}>Morning Walk</h5>
                                     </div>
                                 </div>
                                 <div style={{display:"flex",justifyContent:"space-around",marginBottom:15}}>
                                     <div style={{display:"flex",alignItems:"center",color:"white"}}>
                                         <div style={{width:"2.7rem" , height:"2.7rem",display:"flex",justifyContent:"center",alignItems:"center", borderRadius:"50%",boxShadow:"rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset"}}>
-                                            <img style={{padding:5}} src="../../../../public/image/run.png" />
+                                            <img style={{padding:5}} src="/public/image/run.png" />
                                         </div>
                                         <div style={{marginLeft:10}}>
                                             <p style={{fontWeight:100}}>Walk</p>
@@ -61,7 +61,7 @@ export default function Dashboard() {
                                     
                                     <div style={{display:"flex",alignItems:"center",color:"white"}}>
                                         <div style={{width:"2.7rem" , height:"2.7rem",display:"flex",justifyContent:"center",alignItems:"center", borderRadius:"50%",boxShadow:"rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset"}}>
-                                            <img style={{padding:5}} src="../../../../public/image/stopwatch (1).png" />
+                                            <img style={{padding:5}} src="/public/image/stopwatch (1).png" />
                                         </div>
                                         <div style={{marginLeft:10}}>
                                             <p style={{fontWeight:100}}>Duration</p>
@@ -73,7 +73,7 @@ export default function Dashboard() {
                             <div style={{display:"flex" , flexWrap:"wrap"}}>
                                 <div style={{minWidth:"12rem", width:"50%",height:"8rem",backgroundColor:"#cccccc"}}>
                                     <div style={{height:"40%", display:"flex", justifyContent:"flex-end",alignItems:"end"}}>
-                                        <img style={{marginRight:20}} src="../../../../public/image/footsteps.png"  />
+                                        <img style={{marginRight:20}} src="/public/image/footsteps.png"  />
                                     </div>
                                     <div style={{height:"60%", display:"flex",alignItems:"center"}}>
                                         <div style={{marginLeft:20}}>
@@ -84,7 +84,7 @@ export default function Dashboard() {
                                 </div>
                                 <div style={{minWidth:"12rem", width:"50%",height:"8rem",backgroundColor:"#818ecb"}}>
                                     <div style={{height:"40%", display:"flex", justifyContent:"flex-end",alignItems:"end"}}>
-                                        <img style={{marginRight:20}} src="../../../../public/image/calories (1).png"  />
+                                        <img style={{marginRight:20}} src="/public/image/calories (1).png"  />
                                     </div>
                                     <div style={{height:"60%", display:"flex",alignItems:"center"}}>
                                         <div style={{marginLeft:20}}>
@@ -95,7 +95,7 @@ export default function Dashboard() {
                                 </div>
                                 <div style={{minWidth:"12rem", width:"50%",height:"8rem",backgroundColor:"#818ecb"}}>
                                     <div style={{height:"40%", display:"flex", justifyContent:"flex-end",alignItems:"end"}}>
-                                            <img style={{marginRight:20}} src="../../../../public/image/moon.png"  />
+                                            <img style={{marginRight:20}} src="/public/image/moon.png"  />
                                     </div>
                                         <div style={{height:"60%", display:"flex",alignItems:"center"}}>
                                             <div style={{marginLeft:20}}>
@@ -106,7 +106,7 @@ export default function Dashboard() {
                                     </div>
                                 <div style={{minWidth:"12rem", width:"50%",height:"8rem",backgroundColor:"#cccccc"}}>
                                     <div style={{height:"40%", display:"flex", justifyContent:"flex-end",alignItems:"end"}}>
-                                            <img style={{marginRight:20}} src="../../../../public/image/water.png"  />
+                                            <img style={{marginRight:20}} src="/public/image/water.png"  />
                                     </div>
                                     <div style={{height:"60%", display:"flex",alignItems:"center"}}>
                                             <div style={{marginLeft:20}}>
@@ -125,14 +125,14 @@ export default function Dashboard() {
                                 </div>
                                 <div style={{display:"flex",flexDirection:'column',height:"100%",justifyContent:"space-between"}}>
                                     <div style={{width:"10rem" , height:"5rem" , backgroundColor:"#2d43a8",display:"flex",justifyContent:"space-around",alignItems:"center"}}>
-                                        <img src='../../../../public/image/dumbell.png'/>
+                                        <img src='/public/image/dumbell.png'/>
                                         <div style={{color:"white"}}>
                                             <h5>Weight</h5>
                                             <p>65kg</p>
                                         </div>
                                     </div>
                                     <div style={{width:"10rem" , height:"5rem" , backgroundColor:"#2d43a8",display:"flex",justifyContent:"space-around",alignItems:"center"}}>
-                                        <img src='../../../../public/image/height.png'/>
+                                        <img src='/public/image/height.png'/>
                                         <div style={{color:"white"}}>
                                             <h5>Height</h5>
                                             <p>5.5 inches</p>
@@ -147,14 +147,14 @@ export default function Dashboard() {
                         <Calendar  style={{height:300}} value={date} onChange={(e) => setDate(e.value)} inline showWeek />
                         <div>
                             <div style={{marginTop:20,height:"4rem", width:"70%",backgroundColor:"#818ecb",display:"flex",alignItems:"center"}}>
-                                <img style={{margin:"0 10px"}} src='../../../../public/image/moon.png'/>
+                                <img style={{margin:"0 10px"}} src='/public/image/moon.png'/>
                                 <div style={{}}>
                                     <h3>Sleep Conditions</h3>
                                     <p style={{color:"red"}}>Take break from work and take rest</p>
                                 </div>
                             </div>
                             <div style={{marginTop:20,height:"4rem", width:"70%",backgroundColor:"#818ecb",display:"flex",alignItems:"center"}}>
-                                <img style={{margin:"0 10px"}} src='../../../../public/image/water.png'/>
+                                <img style={{margin:"0 10px"}} src='/public/image/water.png'/>
                                 <div style={{}}>
                                     <h3>Water level</h3>
                                     <p style={{color:"green"}}>Your water intake was good this week</p>

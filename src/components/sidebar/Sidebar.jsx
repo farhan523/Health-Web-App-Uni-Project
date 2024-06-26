@@ -10,13 +10,13 @@ export default function Sidebar({page}) {
     <div className='sidebar'>
         <div>
             <div className={"icon-div " + (page == "dashboard" ? "active" : "")} style={{}} onClick={()=>navigate("/dashboard")}>
-                <img src="../../../public/image/dashboard.png" />
+                <img src="/image/dashboard.png" />
             </div>
             <div className={"icon-div " + (page == "analytics" ? "active" : "")} onClick={()=>navigate("/analytics")} >
-                <img src="../../../public/image/analytics.png" />
+                <img src="/image/analytics.png" />
             </div>
             <div className={"icon-div " + (page == "portal" ? "active" : "")}  onClick={()=>navigate("/portal")}>
-                <img src="../../../public/image/portal.png" />
+                <img src="/image/portal.png" />
             </div>
         </div>
     </div>

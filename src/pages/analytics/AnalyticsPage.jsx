@@ -15,22 +15,22 @@ import {  doc, getDoc } from 'firebase/firestore';
 const Services = [
   {
     heading : "Health Check",
-    img : "../../../public/image/health-check.png",
+    img : "/public/image/health-check.png",
     details:"Check your elder health Report and Daily Statistics"
   },
   {
     heading : "Medical History",
-    img : "../../../public/image/history.png",
+    img : "/public/image/history.png",
     details:"Check your elder health Medical history"
   },
   {
     heading : "Major Health Issues",
-    img : "../../../public/image/medical.png",
+    img : "/public/image/medical.png",
     details:"Check your elder major health issues"
   },
   {
     heading : "Ongoing Treatment",
-    img : "../../../public/image/treatment.png",
+    img : "/public/image/treatment.png",
     details:"Check your elder ongoing treatments"
   }
 ]
