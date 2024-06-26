@@ -5,7 +5,7 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAwtrPjQ5r4SX-_uPjiLCNUH2eDG2ZO6LI",
+  apiKey: process.env.apiKey,
   authDomain: "elderly-flutter-aa6a9.firebaseapp.com",
   projectId: "elderly-flutter-aa6a9",
   storageBucket: "elderly-flutter-aa6a9.appspot.com",
