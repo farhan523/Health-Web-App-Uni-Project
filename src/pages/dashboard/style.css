@@ -1,0 +1,10 @@
+/* customStyles.css */
+body .p-datepicker-header {
+    background-color: #2d44a9;
+    color: white;
+}
+
+.p-datepicker-month , .p-datepicker-year{
+    color: white;
+    padding: 10px 5px;
+}

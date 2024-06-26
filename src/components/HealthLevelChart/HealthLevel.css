@@ -1,0 +1,34 @@
+.health-level-container {
+    width: 200px;
+    height: 100%;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .health-level-container h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .progressbar-container {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+  }
+  
+  .status-message p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .status-message p strong {
+    font-size: 16px;
+    color: #000;
+  }
+  

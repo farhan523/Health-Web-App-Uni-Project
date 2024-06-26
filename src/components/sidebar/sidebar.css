@@ -1,0 +1,29 @@
+.sidebar{
+    width: 5vw;
+    height: auto;
+    background-color: #bec2d1;
+    padding-top: 12rem;
+}
+
+img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.icon-div{
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.active{
+    background-color: #7682bd;
+    border-left:5px solid #2d43a8;
+}
+
+.icon-div:hover{
+    background-color: #a2abdb;
+    border-left:5px solid #2d43a8;
+}

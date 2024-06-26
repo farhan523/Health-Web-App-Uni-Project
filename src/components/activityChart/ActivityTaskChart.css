@@ -1,0 +1,44 @@
+.activity-task-chart-container {
+    width: 100%;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .chart-title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .chart-title i.icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .chart-title h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .chart-title p {
+    font-size: 14px;
+    color: #999;
+    margin: 0;
+  }
+  
+  .chart-timeframe p {
+    font-size: 14px;
+    color: #999;
+    margin: 0;
+  }
+  

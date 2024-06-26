@@ -1,0 +1,36 @@
+/* Chart.css */
+.chart-container {
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .chart-title {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .status-indicator {
+    background-color: #ff6b6b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: 5px 25px;
+    color: white;
+    
+    border-radius: 12px;
+    font-size: 1rem;
+  }
+  

@@ -1,0 +1,25 @@
+header{
+    background-image: url("../../../public/image/image\ 1.png");
+    height: 100vh;
+    background-position: center;
+    background-size: 100% 100%;
+
+    background-repeat: no-repeat;
+    background-color: saddlebrown;
+}
+
+.headerShadow{
+    background-color: rgba(0, 0, 0, 0.4); 
+    height: 100vh;
+}
+
+nav{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: flex-end;
+    /* position: absolute; */
+    width: 100%;
+    /* z-index: 999; */
+}
