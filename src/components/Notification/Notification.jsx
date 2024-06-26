@@ -16,7 +16,7 @@ const Notification = () => {
          onMouseLeave={() => setShowNotifications(false)}>
       <div className="icon-container">
         <div className="notification-icon">
-            <img src='/public/image/bell (1).png' style={{width:"1.5rem", color:"white"}} />
+            <img src='/image/bell (1).png' style={{width:"1.5rem", color:"white"}} />
           <span className="notification-count">{notifications.length}</span>
         </div>
       </div>
